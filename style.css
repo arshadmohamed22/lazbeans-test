@@ -120,29 +120,27 @@ img {
 
 .laz-img {
 	position: relative;
-	margin: 10% auto;
+	margin: 6.5% auto;
 	height: 8.75%;	
 	width: 47.97%;
 }
 .beanaz {
 	position: absolute;
-   	left: 9%;
-    right: 9%;
 	height: auto;	
-	width: 83%;
+	width: 100%;
 }
 
 .text-one {
-	margin: -3.5% auto 0 auto;
+	margin: 11.5% auto 0 auto;
 	height: 30%;	
-	width: 50.7%;	
+	width: 55%;	
 	text-align: center;
 }
 
 .random-rect {
 	position: absolute;
 	bottom: 5%;
-	margin: 5% 45.6% 5% 45.6%;
+	margin: 8% 45.6% 5% 45.6%;
 	height:2%;	
 	width: 8.67%;	
 	background-color: #433089;
@@ -173,10 +171,10 @@ img {
 }
 
 .first-body-right {
-	margin: 5% 1% 0 0;
+	margin: -6% 0 0 0;
 	float: right;
-	height: 25.08%;	
-	width: 50%;
+	height: 30%;	
+	width: 60%;
 }
 
 .first-body-right:after {
@@ -193,9 +191,9 @@ img {
 
 .second-body-left {
 	position: absolute;
-	margin-top: 5.5%; 
+	margin: -3% 0 0 -8.9%; 
 	height: 17.38%;	
-	width: 43.83%;
+	width: 50%;
 }
 
 .second-body-right {
@@ -229,6 +227,10 @@ img {
 	margin: 10% 0 0 0;
 }
 
+.third-body-left h1 {
+	width: 35%;
+}
+
 .text-four {
 	margin-top: 2%;
 	height: 6.77%;	
@@ -236,10 +238,10 @@ img {
 }
 
 .third-body-right {
-	margin: 5% 0% 0 0;
+	margin: -5% -4% 0 0;
 	float: right;
 	height: 25.08%;	
-	width: 60%;
+	width: 65%;
 }
 
 .third-body-right:after {
@@ -265,14 +267,14 @@ img {
 }
 
 .bottom input {
-	margin: 2% 1.41% 2.5% auto;
-	height: 7%;
+	margin: 3% 1.41% 2.5% auto;
+	height: 13%;
 	width: 18%;
 	border: 1px solid #D4D4D4;	
 	border-radius: 5px;
 	color: #83868A;	
 	font-family: Lato;	
-	font-size: 18px;	
+	font-size: 20px;	
 	line-height: 22px;
 	padding: 0.5% 4% 0.5% 2%;	
 	text-align: left;
@@ -281,14 +283,14 @@ img {
 .bottom button {
 	overflow: hidden;
 	padding: 0.5%;
-	height: 12%;
+	height: 18%;
 	width: 15%;
 	border-radius: 5px;
 	border: none;	
 	background-color: #433089;
 	color: #FFFFFF;	
 	font-family: Lato;	
-	font-size: 18px;	
+	font-size: 20px;	
 	line-height: 22px;	
 	text-align: center;
 }
@@ -300,22 +302,33 @@ img {
 
 @media only screen and (max-width: 730px) {
     .bottom input {
+		font-size: 13px;
     	margin: 5% auto 2% auto;
     	width: 35%;
+    	height: 10%;
         display: block;
     }
     .bottom button {
+		font-size: 13px;
     	width: 20%;
+    	height: 12%;
     }
 }
 
 @media only screen and (max-width: 675px) {
+
 	.btn-group {
 		margin: 0.82% 1.23% 0.82% 0;
 		width: 70%;
 	}
 	.btn-group button {
 		padding: 10px 19px;
+		font-size: 13px;
+	}
+	.bottom input {
+		font-size: 13px;
+	}
+	.bottom button {
 		font-size: 13px;
 	}
 }
