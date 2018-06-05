@@ -1,13 +1,27 @@
-/* FOR SCREEN SIZES LARGER THAN 1400PX */
+/* FOR SCREEN SIZES LARGER THAN 1920PX */
 html, body {
 	margin:0;
 	padding:0;
-	width: 100%;
-	height: 3245px;
+	width: 2560px;
+	height: 4500px;
 	background-color: #EFEFEF;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1920px) {
+	html, body {
+		width: 100%;
+		height: 3890px;
+	}
+}
+
+@media only screen and (max-width: 1920px) {
+	html, body {
+		width: 100%;
+		height: 2900px;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
 	html, body {
 		width: 100%;
 		height: 2675px;
