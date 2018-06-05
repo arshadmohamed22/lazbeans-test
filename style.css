@@ -265,14 +265,14 @@ img {
 }
 
 .bottom input {
-	margin: 2% 1.41% 2.5% auto;
-	height: 7%;
+	margin: 3% 1.41% 2.5% auto;
+	height: 13%;
 	width: 18%;
 	border: 1px solid #D4D4D4;	
 	border-radius: 5px;
 	color: #83868A;	
 	font-family: Lato;	
-	font-size: 18px;	
+	font-size: 20px;	
 	line-height: 22px;
 	padding: 0.5% 4% 0.5% 2%;	
 	text-align: left;
@@ -281,14 +281,14 @@ img {
 .bottom button {
 	overflow: hidden;
 	padding: 0.5%;
-	height: 12%;
+	height: 18%;
 	width: 15%;
 	border-radius: 5px;
 	border: none;	
 	background-color: #433089;
 	color: #FFFFFF;	
 	font-family: Lato;	
-	font-size: 18px;	
+	font-size: 20px;	
 	line-height: 22px;	
 	text-align: center;
 }
@@ -300,22 +300,33 @@ img {
 
 @media only screen and (max-width: 730px) {
     .bottom input {
+		font-size: 13px;
     	margin: 5% auto 2% auto;
     	width: 35%;
+    	height: 10%;
         display: block;
     }
     .bottom button {
+		font-size: 13px;
     	width: 20%;
+    	height: 12%;
     }
 }
 
 @media only screen and (max-width: 675px) {
+
 	.btn-group {
 		margin: 0.82% 1.23% 0.82% 0;
 		width: 70%;
 	}
 	.btn-group button {
 		padding: 10px 19px;
+		font-size: 13px;
+	}
+	.bottom input {
+		font-size: 13px;
+	}
+	.bottom button {
 		font-size: 13px;
 	}
 }
