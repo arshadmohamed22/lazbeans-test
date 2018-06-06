@@ -10,14 +10,14 @@ html, body {
 @media only screen and (max-width: 1920px) {
 	html, body {
 		width: 100%;
-		height: 3950px;
+		height: 3700px;
 	}
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1680px) {
 	html, body {
 		width: 100%;
-		height: 2900px;
+		height: 3300px;
 	}
 }
 
@@ -120,29 +120,27 @@ img {
 
 .laz-img {
 	position: relative;
-	margin: 10% auto;
+	margin: 5% auto;
 	height: 8.75%;	
 	width: 47.97%;
 }
 .beanaz {
 	position: absolute;
-   	left: 9%;
-    right: 9%;
 	height: auto;	
-	width: 83%;
+	width: 100%;
 }
 
 .text-one {
-	margin: -3.5% auto 0 auto;
+	margin: 11.5% auto 0 auto;
 	height: 30%;	
-	width: 50.7%;	
+	width: 55%;	
 	text-align: center;
 }
 
 .random-rect {
 	position: absolute;
 	bottom: 5%;
-	margin: 5% 45.6% 5% 45.6%;
+	margin: 8% 45.6% 5% 45.6%;
 	height:2%;	
 	width: 8.67%;	
 	background-color: #433089;
@@ -173,9 +171,9 @@ img {
 }
 
 .first-body-right {
-	margin: 5% 1% 0 0;
+	margin: 0 0 0 0;
 	float: right;
-	height: 25.08%;	
+	height: 30%;	
 	width: 50%;
 }
 
@@ -193,13 +191,13 @@ img {
 
 .second-body-left {
 	position: absolute;
-	margin-top: 5.5%; 
+	margin: 0 0 0 -8.4%; 
 	height: 17.38%;	
-	width: 43.83%;
+	width: 43%;
 }
 
 .second-body-right {
-	margin: 12% 2% 0 0;
+	margin: 12% 4% 0 0;
 	float: right;
 	width: 45%;
 }
@@ -229,6 +227,10 @@ img {
 	margin: 10% 0 0 0;
 }
 
+.third-body-left h1 {
+	width: 35%;
+}
+
 .text-four {
 	margin-top: 2%;
 	height: 6.77%;	
@@ -236,7 +238,7 @@ img {
 }
 
 .third-body-right {
-	margin: 5% 0% 0 0;
+	margin: -1% -4% 0 0;
 	float: right;
 	height: 25.08%;	
 	width: 60%;
